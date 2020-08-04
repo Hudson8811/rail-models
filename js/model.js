@@ -47,7 +47,7 @@ function onModelElemHover(idElem, srcValue, elemDescriptionId, setStyle) {
     document.getElementsByClassName('mapster_el')[0].src = srcValue;
     var desc = document.getElementById(elemDescriptionId);
     if (setStyle == true) {
-        desc.style.border = "2px solid #93BDFF";
+        desc.style.border = "2px solid #ff9e00";
     } else if (setStyle == false) {
         desc.style.border = "";
     }

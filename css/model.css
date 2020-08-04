@@ -92,3 +92,10 @@
     display: block;
     width: 238px
 }
+
+.model_view_info a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #252525;
+    text-transform: uppercase;
+}
