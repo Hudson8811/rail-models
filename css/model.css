@@ -99,3 +99,22 @@
     color: #252525;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 1200px) {
+    .model_view_info{
+        display: grid;
+        width: 100%;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .model_view_info li{
+        margin: 0;
+        position: relative;
+        padding-bottom: 15px;
+    }
+    .model_view_info li:after {
+        position: absolute;
+        bottom: 0;
+        left: 7px;
+    }
+}
