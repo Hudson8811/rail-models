@@ -98,8 +98,11 @@
     font-weight: 500;
     color: #252525;
     text-transform: uppercase;
+    text-decoration: none;
 }
-
+.model_view_info a:hover{
+    text-decoration: underline;
+}
 @media screen and (max-width: 1200px) {
     .model_view_window{
         margin: 0 auto;
