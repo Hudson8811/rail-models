@@ -101,6 +101,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .model_view_window{
+        margin: 0 auto;
+    }
     .model_view_info{
         display: grid;
         width: 100%;
