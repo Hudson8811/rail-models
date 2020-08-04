@@ -6,9 +6,10 @@
 
 .model_view_window {
     display: inline-block;
-    width: 800px;
     height: 100%;
-    vertical-align: top
+    vertical-align: top;
+    max-width: 100%;
+    width: 800px;
 }
 
 .model_view_window map{
